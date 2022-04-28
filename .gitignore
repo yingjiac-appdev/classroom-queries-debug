@@ -34,6 +34,8 @@
 .rbenv-gemsets
 examples.txt
 whitelist.yml
+vendor/bundle/*
+!vendor/bundle/.keep
 grades.yml
 cloud9_plugins.sh
 appdev/
@@ -42,3 +44,7 @@ package-lock.json
 core.chrome*
 !vendor/
 .theia/.ltici_apitoken.yml
+
+# Ignore the default SQLite database.
+# /db/*.sqlite3
+# /db/*.sqlite3-journal
