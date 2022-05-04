@@ -1,7 +1,7 @@
 <div class="row mb-3">
   <div class="col-md-8 offset-md-2">
     <h1>
-      Enrollment #<%= @enrollment.id %> details
+      Enrollment #<%= @the_enrollment.id %> details
     </h1>
 
     <div class="row mb-3">
@@ -17,28 +17,28 @@
         Course
       </dt>
       <dd>
-        <%= @enrollment.course_id %>
+        <%= @the_enrollment.course_id %>
       </dd>
 
       <dt>
         Student
       </dt>
       <dd>
-        <%= @enrollment.student_id %>
+        <%= @the_enrollment.student_id %>
       </dd>
 
       <dt>
         Created at
       </dt>
       <dd>
-        <%= @enrollment.created_at %>
+        <%= @the_enrollment.created_at %>
       </dd>
 
       <dt>
         Updated at
       </dt>
       <dd>
-        <%= @enrollment.updated_at %>
+        <%= @the_enrollment.updated_at %>
       </dd>
     </dl>
   </div>
